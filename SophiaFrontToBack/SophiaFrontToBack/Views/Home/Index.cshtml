@@ -1,0 +1,2372 @@
+﻿@model List<Slider>
+@{
+    ViewData["Title"] = "Home";
+}
+
+<main>
+            
+    <section id="slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                @foreach (var item in Model)
+                {
+                      <div class="swiper-slide">
+                    <img src="~/assets/image/@item.Image" alt="">
+                    <button class="shop">SHOP NOW</button>
+                    </div>
+                }
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+
+
+        <section id="cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card1">
+
+                            <div class="icon1">
+                                <i class="fa-solid fa-gift"></i>
+                            </div>
+
+                            <div class="bonus-get">
+                                <div class="bonus">
+                                    <span>BONUS PLUS</span>
+                                </div>
+                                <div class="get">
+                                    <div class="span1">
+                                        <span>Get a bonus plus for buying more that</span>
+                                    </div>
+
+                                    <div class="span2">
+                                        <span>three products</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="line1">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class="card2">
+
+                            <div class="icon2">
+                                <i class="fa-solid fa-truck"></i>
+                            </div>
+
+                            <div class="shipping-free">
+                                <div class="shipping">
+                                    <span>FREE SHIPPING</span>
+                                </div>
+                                <div class="free">
+                                    <div class="span1">
+                                        <span>Free shipping on all orders over $99</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line2">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class="card3">
+
+                            <div class="icon3">
+                                <i class="fa-solid fa-sack-dollar"></i>
+                            </div>
+
+                            <div class="money-back">
+                                <div class="money">
+                                    <span>MONEY BACK GUARANTEE</span>
+                                </div>
+                                <div class="back">
+                                    <div class="span1">
+                                        <span>100% money back guarantee</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="line3">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-3">
+                        <div class="card4">
+
+                            <div class="icon4">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                            </div>
+
+                            <div class="online-call">
+                                <div class="online">
+                                    <span>ONLINE SUPPORT 24/7</span>
+                                </div>
+                                <div class="call">
+                                    <div class="span1">
+                                        <span>Call us: 02 3555 65454 55</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section id="tab-menu">
+            <div class="main">
+                <div class="container">
+                    <div class="tab">
+                        <div class="tab-menu">
+                            <button class="tab-menu-link is-active" data-content="item-1">
+                                <span data-title="item-1">FEATURED PRODUCTS</span>
+                            </button>
+                            <button class="tab-menu-link" data-content="item-2">
+                                <span data-title="item-2">LATEST PRODUCTS</span>
+                            </button>
+                            <button class="tab-menu-link" data-content="item-3">
+                                <span data-title="item-3">ON SALE PRODUCTS</span>
+                            </button>
+
+                        </div>
+
+                        <div class="tab-bar">
+                            <div class="tab-bar-content is-active" id="item-1">
+                                <div class=" cards">
+                                    <div class="product-card" data-id="1">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product1.png" alt=""></a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Wireless Mondo</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>266.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="2">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Headset Perro</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>88.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="3">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product3.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Dono Purple Wireless</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>100.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="4">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product4.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Ultra Whitte Wireless</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>350.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="5">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product5.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Solo Headset</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>235.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="6">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>ONTEC E Headset</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>175.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="7">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/laptop1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Wireless Mondo</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>266.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" data-id="8">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/laptop2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye eye-icon"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Wireless Mondo</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>266.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="moddal">
+                                    <div class="modall d-none">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="img">
+                                                        <img src="" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="iconca">
+                                                        <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                                    </div>
+                                                    <div class="text1">
+                                                        <h2></h2>
+
+                                                    </div>
+                                                    <div class="texts">
+                                                        <div class="price1">
+                                                            <del></del>
+                                                        </div>
+                                                        <div class="price2">
+                                                            <p>50% Off</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text2">
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="border">
+
+                                                    </div>
+                                                    <div class="text3">
+                                                        <p>Product details</p>
+                                                    </div>
+                                                    <div class="text4">
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                            industry. Lorem Ipsum has been the industrys standard dummy text
+                                                            ever
+                                                            since the 1500s, when an unknown printer took a galley of type and
+                                                            scrambled it to make a type specimen book.</p>
+                                                    </div>
+                                                    <div class="border">
+
+                                                    </div>
+                                                    <div class="text5">
+                                                        <div class="text1">
+                                                            <p>Avalibility:</p>
+                                                        </div>
+                                                        <div class="text2">
+                                                            <p> In Stock</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text6">
+                                                        <p>Quantity</p>
+                                                    </div>
+                                                    <div class="input-icon">
+                                                        <div class="inputs">
+                                                            <div class="minus">
+                                                                <p>-</p>
+                                                            </div>
+                                                            <input type="text" name="" id="" value="1">
+                                                            <div class="plus">
+                                                                <p>+</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="icons">
+                                                            <div class="icon1">
+                                                                <i class="fa-solid fa-cart-shopping"></i>
+                                                            </div>
+                                                            <div class="icon2">
+                                                                <i class="fa-solid fa-eye"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div> 
+
+
+
+                            </div>
+
+
+                            <div class="tab-bar-content" id="item-2">
+                                <div class=" cards">
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product5.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>ONTEC E Headset</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>175.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product4.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Wireless Mondo</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>266.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product3.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Wireless Mondo</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>266.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Ultra Whitte Wireless</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>350.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/product1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Solo Headset</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>235.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/laptop3.png" alt=""></a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Wireless Mondo</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>266.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/laptop2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Headset Perro</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>88.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/laptop1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Headphones</span>
+                                            <h4>Dono Purple Wireless</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>100.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="tab-bar-content" id="item-3">
+                                <div class=" cards">
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/phone-1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Smertphones</span>
+                                            <h4>Notebook Polo 4000</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>399.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/phone-2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Smartphones</span>
+                                            <h4>Smartphone Elitte Pro</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>699.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/phone-3.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Smartphones</span>
+                                            <h4>Smartphone XD5000</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>799.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/camera1.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Cameras</span>
+                                            <h4>Camera Xd Prof</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>499.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/camera2.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Cameras</span>
+                                            <h4>Camera HD200 x100</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>479.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/camera3.png" alt=""></a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Cameras</span>
+                                            <h4>ONTEC Camera W5000</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>400.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/camera4.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Cameras</span>
+                                            <h4>Classic Camera E5000</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>400.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <div class="img-area">
+                                            <a href=""><img src="./assets/image/camera5.png" alt=""></a>
+                                        </div>
+
+                                        <div class="icons">
+                                            <i class="fa-regular fa-heart heart"></i>
+                                            <i class="fa-solid fa-eye"></i>
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </div>
+                                        <div class="card-text">
+                                            <span>Cameras</span>
+                                            <h4>Smart Camera Extra mini2000</h4>
+                                        </div>
+                                        <div class="card-footer">
+                                            <div class="star-icons">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="card-price">
+                                                <span>799.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="add-btn">
+                                            <button>ADD TO CART <i class="fa-solid fa-cart-shopping"></i></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section id="slider-product">
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="multiple-items">
+
+                    </div>
+                    <div class="col-3">
+                        <div class="card1">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product1.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Headphones</p>
+                                <h5>ONTEC E Headset</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$175.00</h5>
+                                </div>
+
+                            </div>
+
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+
+
+
+
+                        </div>
+                        <div class="moddal1">
+                            <div class="modal1 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo1.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>ONTEC E Headset</h2>
+
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$160.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$175.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text
+                                                    ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="text" name="" id="" value="1">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-3">
+                        <div class="card2">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product2.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Headphones</p>
+                                <h5>Solo Headset</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$235.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                        <div class="moddal2">
+                            <div class="modal2 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Solo Headset</h2>
+
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$200.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$235.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text
+                                                    ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="text" name="" id="" value="1">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="col-3">
+                        <div class="card3">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product3.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Headphones</p>
+                                <h5>Ultra Whitte Wireless</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$350.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                        <div class="moddal3">
+                            <div class="modal3 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Ultra Whitte</h2>
+                                                <h2>Wireless</h2>
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$200.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$350.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="number" name="" id="">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-3">
+                        <div class="card4">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product4.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Headphones</p>
+                                <h5>Wireless Mondo</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$266.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+
+                        <div class="moddal4">
+                            <div class="modal4 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo4.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Wireless Mondo</h2>
+
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$200.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$266.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="number" name="" id="">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-3">
+                        <div class="card5">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product5.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Headphones</p>
+                                <h5>Headset Perro</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$88.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+
+                        <div class="moddal5">
+                            <div class="modal5 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo5.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Headset Perro</h2>
+
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$70.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$88.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="number" name="" id="">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-3">
+                        <div class="card6">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product6.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Headphones</p>
+                                <h5>Dono Purple Wireless</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$100.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+                        </div>
+
+                        <div class="moddal6">
+                            <div class="modal6 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo6.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Dono Purple</h2>
+                                                <h2>Wireless</h2>
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$200.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$100.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="number" name="" id="">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="col-3">
+                        <div class="card7">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product7.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Laptops</p>
+                                <h5>Tablet Red 8500U 2TB</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$100.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+
+                        <div class="moddal7">
+                            <div class="modal7 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo7.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Tablet Red 8500U</h2>
+                                                <h2>2TB</h2>
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$200.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$100.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="number" name="" id="">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-3">
+                        <div class="card8">
+                            <div class="img-icon">
+                                <div class="img1">
+                                    <a href=""><img src="./assets/image/product8.png" alt=""></a>
+                                </div>
+                                <div class="icon1">
+                                    <i class="fa-regular fa-heart one"></i>
+                                    <i class="fa-solid fa-eye two"></i>
+                                    <i class="fa-solid fa-rotate three"></i>
+                                </div>
+
+                            </div>
+                            <div class="text1">
+                                <p>Laptops</p>
+                                <h5>Ellite Pro Book 15'6 7500</h5>
+                            </div>
+                            <div class="star-price">
+                                <div class="star">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <div class="price">
+                                    <h5>$850.00</h5>
+                                </div>
+
+                            </div>
+
+                            <button class="addBtn"><span> ADD TO CART </span><i class="fa-solid fa-cart-shopping"></i></button>
+
+
+
+                        </div>
+
+                        <div class="moddal8">
+                            <div class="modal8 d-none">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="img">
+                                                <img src="./assets/image/big-photo8.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="iconca">
+                                                <a href=""><i class="fa-solid fa-xmark"></i></a>
+                                            </div>
+                                            <div class="text1">
+                                                <h2>Ellite Pro Book 15'6</h2>
+                                                <h2>
+                                                    7500U
+                                                </h2>
+                                            </div>
+                                            <div class="texts">
+                                                <div class="price1">
+                                                    <del>$700.00</del>
+                                                </div>
+                                                <div class="price2">
+                                                    <p>50% Off</p>
+                                                </div>
+                                            </div>
+                                            <div class="text2">
+                                                <p>$850.00</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text3">
+                                                <p>Product details</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                    industry. Lorem Ipsum has been the industrys standard dummy text ever
+                                                    since the 1500s, when an unknown printer took a galley of type and
+                                                    scrambled it to make a type specimen book.</p>
+                                            </div>
+                                            <div class="border">
+
+                                            </div>
+                                            <div class="text5">
+                                                <div class="text1">
+                                                    <p>Avalibility:</p>
+                                                </div>
+                                                <div class="text2">
+                                                    <p> In Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="text6">
+                                                <p>Quantity</p>
+                                            </div>
+                                            <div class="input-icon">
+                                                <div class="inputs">
+                                                    <div class="minus">
+                                                        <p>-</p>
+                                                    </div>
+                                                    <input type="number" name="" id="">
+                                                    <div class="plus">
+                                                        <p>+</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icons">
+                                                    <div class="icon1">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="icon2">
+                                                        <i class="fa-solid fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section> -->
+
+
+
+
+
+        <section id="procs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="newlaptops">
+                            <div class="text1">
+                                <p>NEW LAPTOPS</p>
+                            </div>
+                            <div class="text2">
+                                <p>Sale up to 30% off all products in the new collection.</p>
+                            </div>
+                            <div class="text3">
+                                <p>Shop Now</p>
+                            </div>
+                            <div class="img">
+                                <img src="./assets/image/proc1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col">
+                        <div class="col-6">
+                            <div class="tablets-new">
+                                <div class="tablets1">
+                                    <div class="text-image">
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <p>TABLETS,</p>
+                                            </div>
+                                            <div class="text2">
+                                                <p>SMARTPHONES</p>
+                                            </div>
+                                            <div class="text3">
+                                                <p>AND MORE</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Sale up to 30%.</p>
+                                            </div>
+                                            <div class="text5">
+                                                <p>Shop Now</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="cach-image">
+                                <div class="cachimage">
+                                    <div class="cach">
+                                        <div class="text1">
+                                            <p>CACH BIG</p>
+                                        </div>
+                                        <div class="text2">
+                                            <p>OFFERS ON</p>
+                                        </div>
+                                        <div class="text3">
+                                            <p>CAMERAS</p>
+                                        </div>
+                                        <div class="text4">
+                                            <p>Sale up to 20%.</p>
+                                        </div>
+                                        <div class="button">
+                                            <button><span>$66.99</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-6">
+                            <div class="new-cameras">
+                                <div class="tablets2">
+                                    <div class="text-image">
+                                        <div class="texts">
+                                            <div class="text1">
+                                                <p>NEW</p>
+                                            </div>
+                                            <div class="text2">
+                                                <p>CAMERAS</p>
+                                            </div>
+                                            <div class="text3">
+                                                <p>COLLECTION</p>
+                                            </div>
+                                            <div class="text4">
+                                                <p>Sale up to 30%.</p>
+                                            </div>
+                                            <div class="text5">
+                                                <p>Shop Now</p>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="featured-product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="carts">
+                            <div class="cart1">
+                                <h4>Featured Products</h4>
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/headphone1.png" alt=""></a>
+
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>ONTEC E Headset</p>
+                                            </a>
+
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>175.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/headphone2.png" alt=""></a>
+
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Solo Headset</p>
+                                            </a>
+
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>235.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/headphone3.png" alt=""></a>
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Ultra Whitte Wireless</p>
+                                            </a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>350.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-4">
+                        <div class="carts">
+                            <div class="cart1">
+                                <h4>Top Selling Products</h4>
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/laptop1.png" alt=""></a>
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Tablet Red 8500U 2TB</p>
+                                            </a>
+
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>100.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/laptop2.png" alt=""></a>
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Ellite Pro Book 15'6 7500U</p>
+                                            </a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>850.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/laptop3.png" alt=""></a>
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Tablet VX3000 Extra Light</p>
+                                            </a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>850.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-4">
+                        <div class="carts">
+                            <div class="cart1">
+                                <h4>Hot Offer</h4>
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/laptop4.png" alt=""></a>
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Tablet VX4000 8500 3TB</p>
+                                            </a>
+
+
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>940.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/laptop5.png" alt=""></a>
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Laptop Sens 7200L</p>
+                                            </a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>760.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="img-text">
+
+                                    <div class="img">
+                                        <a href="ProductDetail.html"><img src="./assets/image/laptop6.png" alt=""></a>
+
+                                    </div>
+                                    <div class="texts">
+                                        <div class="text1">
+                                            <a href="">
+                                                <p>Laptop XS3000 WiFi Smart</p>
+                                            </a>
+                                        </div>
+                                        <div class="icons">
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                            <i class="fa-solid fa-star text-warning"></i>
+                                        </div>
+                                        <div class="text2">
+                                            <p>1,200.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>

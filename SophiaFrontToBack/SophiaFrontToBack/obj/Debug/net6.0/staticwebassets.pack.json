@@ -1,0 +1,521 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\England-flag.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\England-flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\France-flag.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\France-flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\Germany-flag.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Germany-flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\Qardash-olke-flag.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Qardash-olke-flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\Russian-flag.svg",
+      "PackagePath": "staticwebassets\\assets\\image\\Russian-flag.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo4.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo5.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo6.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo7.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\big-photo8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\big-photo8.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\bigimage.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bigimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\blac-logo-sophia.png",
+      "PackagePath": "staticwebassets\\assets\\image\\blac-logo-sophia.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\camera1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\camera1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\camera2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\camera2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\camera3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\camera3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\camera4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\camera4.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\camera5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\camera5.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\headphone1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\headphone1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\headphone2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\headphone2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\headphone3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\headphone3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\images.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\laptop1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\laptop1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\laptop2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\laptop2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\laptop3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\laptop3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\laptop4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\laptop4.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\laptop5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\laptop5.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\laptop6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\laptop6.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\p1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\p2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\p3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\p4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\phone-1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\phone-1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\phone-2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\phone-2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\phone-3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\phone-3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\proc1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\proc1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\proc2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\proc2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\proc3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\proc3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\proc4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\proc4.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\proc5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\proc5.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product4.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product5.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product6.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product7.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\product8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\product8.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\assets\\image\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\slider1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\slider2.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\slider3.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\slider4.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\slider5.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\slider5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\sophia-logo.png",
+      "PackagePath": "staticwebassets\\assets\\image\\sophia-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\user-1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\user-1.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\user-2.png",
+      "PackagePath": "staticwebassets\\assets\\image\\user-2.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\image\\user-3.png",
+      "PackagePath": "staticwebassets\\assets\\image\\user-3.png"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\ProductDetail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ProductDetail.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\about.js",
+      "PackagePath": "staticwebassets\\assets\\js\\about.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\account.js",
+      "PackagePath": "staticwebassets\\assets\\js\\account.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\basket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\basket.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\blog.js",
+      "PackagePath": "staticwebassets\\assets\\js\\blog.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\checkout.js",
+      "PackagePath": "staticwebassets\\assets\\js\\checkout.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\js\\wishlist.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wishlist.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\ProductDetail.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\ProductDetail.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\ProductDetail.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\ProductDetail.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\ProductDetail.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\ProductDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\about.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\about.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\about.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\about.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\account.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\account.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\account.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\account.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\account.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\basket.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\basket.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\basket.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\basket.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\basket.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\basket.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\blog.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\checkout.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\checkout.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\checkout.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\checkout.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\checkout.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\contact.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\home.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\home.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\home.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\home.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\home.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\wishlist.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\wishlist.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\scss\\wishlist.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\wishlist.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\.gitignore",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\CONTRIBUTING.markdown",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\CONTRIBUTING.markdown"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\Makefile",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\README.markdown",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\README.markdown"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\component.json",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\component.json"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\index.html",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\package.json",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick.jquery.json",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick.jquery.json"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick-theme.css.map",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick.css.map",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick.css.map"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\VICTUS\\Desktop\\Alakbars Homeworks\\BackEnd (30.03.2023)\\SophiaFrontToBack\\SophiaFrontToBack\\wwwroot\\assets\\slick-1.8.1\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\assets\\slick-1.8.1\\slick\\slick.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SophiaFrontToBack.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SophiaFrontToBack.props",
+      "PackagePath": "build\\SophiaFrontToBack.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SophiaFrontToBack.props",
+      "PackagePath": "buildMultiTargeting\\SophiaFrontToBack.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SophiaFrontToBack.props",
+      "PackagePath": "buildTransitive\\SophiaFrontToBack.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
